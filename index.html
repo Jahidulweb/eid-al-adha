@@ -2,8 +2,10 @@
 <html lang="bn">
 <head>
 <meta charset="UTF-8">
+<!---Version: 2--->
+<meta name= "theme-color" content="#110c0cce">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>প্রপোজাল</title>
+<title>Eid Mubarrok!</title>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -39,7 +41,7 @@ body {
   touch-action: none;
 }
 
-  /*==========ঈদ ব্যাকগ্রাউন্ড এলিমেন্ট==========*/
+  /*====ঈদ ব্যাকগ্রাউন্ড এলিমেন্ট====*/
 .eid-bg-overlay {
   position: absolute;
   top: 0;
@@ -91,8 +93,8 @@ body {
 .tuniverse-jahidul-card {
   background: none;
   border: 1px solid #00800046;
-  width: 80%;
-  max-width: 400px;
+  width: 75%;
+  max-width: 300px;
   min-height: 100px;
   padding: 19px 23px;
   border-radius: 20px;
@@ -103,8 +105,8 @@ body {
 }
 
 h1 {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+  font-size: 1rem;
+  margin-bottom: 20px;
   line-height: 1.4;
   color: white;
 }
@@ -126,8 +128,8 @@ h1 {
 }
 
 button {
-  padding: 10px 22px;
-  font-size: 0.95rem;
+  padding: 10px 12px;
+  font-size: 0.70rem;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -200,9 +202,29 @@ footer p {
   100% {transform:translateY(-100vh) rotate(360deg); opacity:0;}
 }
 
-/*==========ট্যাবলেট==========*/
+/*Tablet*/
+  @media (min-width: 685px) {
+  h {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
 
-/*********ছোট প্রজেক্ট তাই প্রয়োজন নেই**********/
+  button {
+    font-size: 0.95rem;
+    padding: 10px 22px;
+  }
+
+  tuniverse-jahidul-card {
+  width: 80%;
+  max-width: 400px;
+  min-height: 100px;
+  }
+  }
+
+/*==========Desktop==========*/
+
+/*small project no code needed*/
+  
 </style>
 </head>
 
@@ -213,7 +235,7 @@ footer p {
 </div>
 <div class="tuniverse-jahidul-card">
   <div id="main-content">
-    <h1>ঈদের দিন আমার সাথে মাংস কাটতে আর<br>সাইজ করতে রাজি আছো তো?</h1>
+    <h1>ঈদের দিন আমার সাথে মাংস কাটতে <br>আর সাইজ করতে রাজি আছো তো?</h1>
 
     <div class="jahidul-buttons">
       <button id="jahidul-yesBtn">হ্যাঁ, আলহামদুলিল্লাহ্</button>
@@ -339,6 +361,17 @@ function handleTryMessage() {
   else if (noTryCount === 8) tryCounter.innerText = "মাংস কি একা একা কাটবো? 🥺";
   else if (noTryCount === 10) tryCounter.innerText = "তোমার পালানো অসম্ভব! 🐮";
 }
+
+
+// ------------------------------
+// Original Code by: Jahidul
+// Created on: 28.05.2026
+// Last modified: 9.08.2026
+// Devolped In: Bangladesh
+
+// Love From Bangladesh
+// If you use this, please mention me 💌
+// ------------------------------
 </script>
 
 </body>
